@@ -22,7 +22,7 @@ body
 .container .left_side
 {
     position: relative;
-    background: darkblue;
+    background: #01142c;
     padding: 40px;
 
 }
@@ -30,7 +30,7 @@ body
 
 .profileText .image
 {
-    border-radius: 50%; 
+    
     position: relative;
     width: 200px;  
     height:200px ;
@@ -51,20 +51,25 @@ body
     display: flex;
     flex-direction: column; 
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .profileText h2
 {
     color: white;
-    font-size: 2em;
+    font-size: 30px;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
 }
 .contact
 {
     color: white;
-    padding-top: 40px; ;
+    padding-top: 10px; ;
+}
+.title
+{
+    color :white;
+    text-transform: uppercase;
 }
 .contact ul
 {
@@ -85,5 +90,53 @@ body
     width:25px;
     font-size: 15px;
     color:white;
+}
+.contact ul li .icon
+{
+    color:white;
+    font-weight: 300;
+}
+
+.pengalaman li
+{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.pengalaman h5
+{
+    color :aqua;
+    font-weight:500;
+    margin-bottom: 2px;
     
+}
+.pengalaman h4:nth-child(2)
+{
+    color:white;
+    margin-top: 3px;
+    font-weight: 500;
+    margin-bottom:3px;
+}
+.pengalaman h4
+{
+    color:white;
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.about
+{
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+.title2
+{
+    color:#022b3d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color:#333;
+
 }
