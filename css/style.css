@@ -140,3 +140,38 @@ p
     color:#333;
 
 }
+.Pendidikan
+{
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+.title3
+{
+    color:#022b3d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.Pendidikan ul li
+{
+    text-align: left;
+}
+.Pendidikan li
+{
+    margin-bottom: 15px;
+}
+
+.Pendidikan h4
+{
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+.Pendidikan h5
+{
+    margin-bottom:2px;
+}
+.Pendidikan h4
+{
+    margin-top :0px;
+}
